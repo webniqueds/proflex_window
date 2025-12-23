@@ -203,8 +203,8 @@ const Home = () => {
   return (
     <div className="min-h-screen overflow-hidden">
       <SEO
-        title="Proflex Window Profiles - Premium UPVC Windows & Doors | Made in India"
-        description="Premium UPVC window profiles and doors manufacturer in India. Energy-efficient casement & sliding windows with weather-proof design. Get free quotes for your home renovation."
+        title="ECOVENT: uPVC Profiles Window and Door Manufacturer in India"
+        description="ECOVENT is a premium uPVC profiles window and door manufacturer in India, offering energy-efficient, weather-proof, lead-free, non-toxic profiles."
         keywords="UPVC windows, UPVC doors, window profiles, casement windows, sliding windows, energy efficient windows, weather proof windows, made in India, home renovation, window installation, door installation, Kolar, Karnataka"
         url="/"
       />

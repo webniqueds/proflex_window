@@ -21,35 +21,35 @@ const features = [
     icon: Shield,
     title: "Extraordinary Weather & Salt-Air Resistance",
     description:
-      "Designed for coastal conditions. Free from corrosion, rust, warping, and fading – ideal for Chennai's humidity and heat.",
+      "Designed for coastal conditions. Our profiles are free from corrosion, rust, warping, and fading. This makes them ideal for Chennai's humidity as well as heat.",
     color: "bg-[#0A6EA1]",
   },
   {
     icon: Zap,
-    title: "Thermal & Acoustic Insulation",
+    title: "High-Temperate Acoustic and Acoustic Insulation",
     description:
-      "Multi-chamber technology ensures comfortable indoor temperature and reduces external noise.",
+      "Using multi-chamber technology ECOVENT's profile ensures the temperature of your home at a comfortable level and reduce the external sound.",
     color: "bg-[#7BBE4B]",
   },
   {
     icon: Eye,
     title: "Zero Maintenance Requirements",
     description:
-      "Unlike metal or wood, uPVC does not require painting. Simple cleaning keeps it looking fresh for decades.",
+      "Unlike metal or wood, uPVC does not need painting or frequent maintenance. Simple cleaning can keep the appearance fresh for decades.",
     color: "bg-[#969798]",
   },
   {
     icon: CheckCircle,
-    title: "Customizable Shades & Profiling",
+    title: "Customizable Shades and Profiling Options",
     description:
-      "Available in multiple colors, finishes, and designs suitable for modern interiors and architecture.",
+      "The profiles are available in a variety of colors, finishes and designs that are suitable for modern interior designs and architecture.",
     color: "bg-indigo-600",
   },
   {
     icon: Leaf,
-    title: "Lead-Free & Eco-Friendly Production",
+    title: "Lead-Free Production and Eco-Friendly Production",
     description:
-      "We follow environmentally safe manufacturing using non-toxic materials.",
+      "Responsible uPVC profiles manufacturers in Chennai. We follow eco safe manufacturing procedures using non-toxic materials.",
     color: "bg-red-500",
   },
 ];
@@ -58,45 +58,47 @@ const profiles = [
   {
     title: "Sliding Window Profiles",
     description:
-      "Smooth movement, secure sealing and excellent dust resistance – perfect for urban areas.",
+      "Smooth movement, secure sealing and outstanding dust resistance, ideal for urban areas.",
   },
   {
     title: "Casement Window Profiles",
     description:
-      "Maximum airflow, solid locking systems, and excellent security.",
+      "Perfect for maximum airflow, solid locking systems and outstanding security.",
   },
   {
     title: "Door Profiles",
     description:
-      "Elegant and sturdy profiles ideal for main entrances, balconies, rooms, and offices.",
+      "Solid and elegant profiles are perfect for the main entrances, balconies, rooms, as well as corporate spaces.",
   },
   {
     title: "Fixed & Combination Profiles",
     description:
-      "Perfect for modern elevations, large glass surfaces, and designs that require maximum stability.",
+      "Great for contemporary elevations Large glass surfaces as well as architectural designs that require the highest stability.",
   },
 ];
 
 const faqs = [
   {
-    question: "What makes uPVC profiles perfect for Chennai?",
+    question:
+      "What is it that makes uPVC profiles perfect to be used in Chennai?",
     answer:
-      "uPVC is highly resistant to heat, humidity, and corrosion, making it ideal for Chennai's coastal climate.",
+      "uPVC is highly resistant to heat, humidity, and corrosion, which makes it the ideal option for coastal climates such as Chennai.",
   },
   {
-    question: "Do you offer customization options?",
+    question:
+      "Do you have options for customization? Do you offer customization options?",
     answer:
-      "Yes, we provide multiple colors, finishes, and sizes tailored to your project requirements.",
+      "Yes, we provide various colors, finishes and sizes that are tailored to your specifications of the project.",
   },
   {
     question: "How long will uPVC profiles last?",
     answer:
-      "Top-quality uPVC profiles usually last 30-40 years with minimal upkeep.",
+      "Top quality uPVC profiles usually last 30-40 years with little upkeep.",
   },
   {
-    question: "Do you supply fabricators and builders in Chennai?",
+    question: "Do you provide fabricators and builders in Chennai?",
     answer:
-      "Yes, as leading uPVC profiles manufacturers in Chennai, we supply architects, builders, and fabricators regularly with bulk orders.",
+      "Yes, absolutely. As the leading uPVC profiles manufacturers in Chennai, We provide regular bulk supplies to architects, builders and fabricators throughout the entire region.",
   },
 ];
 
@@ -107,21 +109,21 @@ const ManuFacChennai = () => {
   return (
     <div className="min-h-screen pt-20 bg-white">
       <SEO
-        title="#1 Best UPVC Profiles Manufacturers in Chennai - Proflex"
-        description="Proflex is a top UPVC profiles manufacturer in Chennai, offering durable, low-maintenance windows and doors that resist heat and moisture. Call now!"
+        title="#1 Best UPVC Profiles Manufacturers in Chennai - ECOVENT"
+        description="ECOVENT is a top UPVC profiles manufacturer in Chennai, offering durable, low-maintenance windows and doors that resist heat and moisture. Call now!"
         url="/manufacturers-in-chennai"
-         structuredData={{
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Proflex Window Profiles - Chennai",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Chennai",
-      "addressRegion": "Tamil Nadu",
-      "addressCountry": "India"
-    },
-    "url": "https://proflexwindowprofiles.com/manufacturers-in-chennai"
-  }}
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          name: "Proflex Window Profiles - Chennai",
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: "Chennai",
+            addressRegion: "Tamil Nadu",
+            addressCountry: "India",
+          },
+          url: "https://proflexwindowprofiles.com/manufacturers-in-chennai",
+        }}
       />
 
       {/* ================= HERO SECTION ================= */}
@@ -144,18 +146,43 @@ const ManuFacChennai = () => {
           </h1>
 
           <p className="text-lg sm:text-xl opacity-90 leading-relaxed max-w-4xl mx-auto px-4">
-            Proflex Window Profiles provides premium uPVC profiles engineered to last
-            for years. Our profiles are durable, thermally efficient, and visually
-            stunning, built to withstand Chennai's coastal climate while delivering
-            superior insulation and noise reduction.
+            We are the top uPVC profiles manufacturers in Chennai, providing
+            premium ECOVENT profiles that are engineered to last for years, with
+            durability, thermal efficiency, and stunning aesthetics. We offer
+            uPVC profiles that are specifically designed to withstand Chennai's
+            abrasive coastal climate while providing superior insulation and
+            noise reduction as well as structural integrity. Utilising the
+            latest manufacturing techniques and a strict quality control system,
+            we offer profiles that are designed to elevate commercial and
+            residential spaces.
           </p>
         </div>
       </section>
 
+      {/* ================= INTRO SECTION ================= */}
+      <SectionWrapper className="bg-blue-50/50 pb-16">
+        <FadeInOnScroll animation="slideUp">
+          <h1 className="text-4xl sm:text-6xl font-black mb-6 text-center text-gray-900 leading-tight">
+            High-Quality uPVC Profiles{" "}
+            <span className="text-blue-700">Built </span>for Chennai's Climate
+          </h1>
+
+          <div className="w-24 h-1 bg-[#0A6EA1] mx-auto rounded-full"></div>
+
+          <p className="text-xl text-gray-600 max-w-4xl mt-5 mx-auto text-center leading-normal">
+            As one of the top uPVC profiles manufacturers in Chennai, we create
+            ECOVENT profiles that combine performance, durability, and modern
+            design. When you're renovating your house or planning massive
+            construction projects, our uPVC profiles are known for their quality
+            and reliability.
+          </p>
+        </FadeInOnScroll>
+      </SectionWrapper>
+
       {/* ================= FEATURES ================= */}
       <SectionWrapper className="text-white py-20">
         <SectionTitle
-          title="Why Choose Proflex uPVC Profiles in Chennai?"
+          title="Why Choose ECOVENT uPVC Profiles?"
           className="text-white"
         />
 
@@ -191,6 +218,12 @@ const ManuFacChennai = () => {
             </FadeInOnScroll>
           ))}
         </div>
+
+        <FadeInOnScroll delay={600}>
+          <blockquote className="mt-12 max-w-3xl mx-auto p-4 border-l-8 border-blue-600 bg-blue-50 text-gray-700 italic text-lg rounded-lg">
+            We have a variety of uPVC window and door profiles made by precision and engineered to provide lasting performance.
+          </blockquote>
+        </FadeInOnScroll>
       </SectionWrapper>
 
       {/* ================= SUPPLIER SECTION ================= */}
@@ -204,9 +237,18 @@ const ManuFacChennai = () => {
 
         <FadeInOnScroll animation="fadeIn">
           <p className="max-w-4xl mx-auto text-center text-lg leading-relaxed mb-12 text-gray-700 px-4">
-            Proflex provides top-quality profiles for homeowners, architects, developers, and fabricators.
-            Our products are designed for Chennai's climate and ensure long-term value, efficiency, and
-            aesthetics. Large orders or custom-designed profiles are handled seamlessly for a smooth supply experience.
+            Our ECOVENT Window Profiles provide homeowners as well as
+            architects, developers, and fabricators with top-quality profiles
+            that are backed by prompt delivery and professional service. As
+            seasoned uPVC profiles manufacturers in Chennai We are aware of the
+            challenges of climate change in the region and offer profiles that
+            provide long-term value, efficiency, and aesthetics. <br />
+            <br />
+            If you require a large order for a residential construction or a
+            custom-designed profile for commercial projects, we will ensure that
+            you have a smooth and easy experience with our supply. We aim to
+            offer sturdy and fashionable uPVC profiles that can be used to
+            enhance any type of construction.
           </p>
         </FadeInOnScroll>
       </SectionWrapper>
@@ -222,6 +264,15 @@ const ManuFacChennai = () => {
             </FadeInOnScroll>
           ))}
         </div>
+
+        {/* <FadeInOnScroll animation="fadeIn">
+          <p className="max-w-4xl mx-auto text-center text-lg leading-relaxed mt-12 text-gray-700 px-4">
+            Follow us on{" "}
+            <span className="font-bold text-blue-600">Facebook</span> and{" "}
+            <span className="font-bold text-blue-600">Instagram</span> to stay
+            updated with our latest uPVC profiles, designs, and offers.
+          </p>
+        </FadeInOnScroll> */}
       </SectionWrapper>
 
       <Footer />

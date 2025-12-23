@@ -42,14 +42,14 @@ const features = [
     icon: CheckCircle,
     title: "New Styles",
     description:
-      "Available in a variety of colors and shapes to match any building style.",
+      "It is available in a variety of colors and shapes that can be matched to any style of building.",
     color: "bg-indigo-600",
   },
   {
     icon: Leaf,
     title: "Eco-Friendly",
     description:
-      "Produced using safe materials and responsible, sustainable manufacturing methods.",
+      "Produced using secure materials and responsible manufacturing methods.",
     color: "bg-red-500",
   },
 ];
@@ -63,7 +63,7 @@ const profiles = [
   {
     title: "Casement Window Profiles",
     description:
-      "Secure, sturdy, and designed for a clear view and fresh airflow.",
+      "Secure, sturdy, and designed for a clear, fresh view and air.",
   },
   {
     title: "Door Profiles",
@@ -73,27 +73,28 @@ const profiles = [
   {
     title: "Fixed & Combination Profiles",
     description:
-      "Perfect for large glass panels, modern facades, and strong structural support.",
+      "Perfect for large glass panels, strong support, and modern designs.",
   },
 ];
 
 const faqs = [
   {
-    question: "How long will uPVC profiles last?",
-    answer: "They last a long time and only require simple cleaning.",
+    question: "How long will a uPVC profile last?",
+    answer:
+      "They will last for a long time and only require a simple cleaning.",
   },
   {
-    question: "Can profiles be customized?",
+    question: "Can you modify the profile?",
     answer:
       "Yes, we offer a variety of sizes, colors, and styles to meet your preferences.",
   },
   {
-    question: "Do you supply builders and fabricators?",
-    answer: "Yes, we provide regular and bulk supplies for all projects.",
+    question: "Do you offer your services to builders as well as fabricators?",
+    answer: "Yes, we can provide regular and bulk supplies for every project.",
   },
   {
-    question: "Are uPVC profiles easy to maintain?",
-    answer: "Yes, no painting required; just clean them regularly.",
+    question: "Are uPVC profiles simple to keep clean?",
+    answer: "Yes, they don't require painting. Simply clean them up regularly.",
   },
 ];
 
@@ -105,20 +106,20 @@ const ManuFacCoimbatore = () => {
     <div className="min-h-screen pt-20 bg-white">
       <SEO
         title="Durable and Strong UPVC Profiles Manufacturers in Coimbatore"
-        description="As a trusted UPVC profiles manufacturers in Coimbatore, Proflex offers premium, eco-safe, durable, and energy-efficient windows & doors. Enquire now!."
+        description="As a trusted UPVC profiles manufacturers in Coimbatore, ECOVENT offers premium, eco-safe, durable, and energy-efficient windows & doors. Enquire now!"
         url="/manufacturers-in-coimbatore"
         structuredData={{
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Proflex Window Profiles - Coimbatore",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Coimbatore",
-      "addressRegion": "Tamil Nadu",
-      "addressCountry": "India"
-    },
-    "url": "https://proflexwindowprofiles.com/manufacturers-in-coimbatore"
-  }}
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          name: "Proflex Window Profiles - Coimbatore",
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: "Coimbatore",
+            addressRegion: "Tamil Nadu",
+            addressCountry: "India",
+          },
+          url: "https://proflexwindowprofiles.com/manufacturers-in-coimbatore",
+        }}
       />
 
       {/* ================= HERO SECTION ================= */}
@@ -157,6 +158,31 @@ const ManuFacCoimbatore = () => {
       <SectionWrapper className="bg-blue-50/50 pb-16">
         <FadeInOnScroll animation="slideUp">
           <h1 className="text-4xl sm:text-6xl font-black mb-6 text-center text-gray-900 leading-tight">
+            Trusted UPVC Profiles{" "}
+            <span className="text-blue-700">Manufacturers </span> in Coimbatore
+          </h1>
+
+          <div className="w-24 h-1 bg-[#0A6EA1] mx-auto rounded-full"></div>
+
+          <p className="text-xl text-gray-600 max-w-4xl mt-5 mx-auto text-center leading-normal">
+            We are among the most renowned upvc profiles manufacturers in
+            Coimbatore. Our Product Ecovent is stylish, strong, and durable uPVC
+            profiles for both homes and offices. Our profiles are made to resist
+            temperatures as well as dust, rain, and heat while still keeping
+            your space peaceful, as well as comfortable and contemporary.
+            <br /> <br />
+            We believe in maintaining simplicity and excellence. Every Ecovent
+            profile we design is made from environmentally friendly, sustainable
+            materials that have undergone rigorous quality inspections. We are
+            here to offer you high-quality, long-lasting products, whether
+            you're remodelling your office or building a new house.
+          </p>
+        </FadeInOnScroll>
+      </SectionWrapper>
+
+      <SectionWrapper className="bg-blue-50/50 pb-16">
+        <FadeInOnScroll animation="slideUp">
+          <h1 className="text-4xl sm:text-6xl font-black mb-6 text-center text-gray-900 leading-tight">
             Smart uPVC Profiles for{" "}
             <span className="text-blue-700">Modern Living</span>
           </h1>
@@ -164,10 +190,11 @@ const ManuFacCoimbatore = () => {
           <div className="w-24 h-1 bg-[#0A6EA1] mx-auto rounded-full"></div>
 
           <p className="text-xl text-gray-600 max-w-4xl mt-5 mx-auto text-center leading-normal">
-            At Proflex, we provide robust, elegant, and low-maintenance uPVC
-            profiles. Perfect for new homes, office renovations, and large
-            projects, our products are built to last while enhancing style,
-            comfort, and energy efficiency.
+            We are the trusted name among UPVC profile manufacturers in
+            Coimbatore. We offer our Ecovent UPVC profiles that are designed to
+            be tough, durable, and visually attractive. We know the local
+            climate and create profiles that are solid in rain, heat, and humid
+            conditions.
           </p>
         </FadeInOnScroll>
       </SectionWrapper>
@@ -175,7 +202,7 @@ const ManuFacCoimbatore = () => {
       {/* ================= FEATURES ================= */}
       <SectionWrapper className="text-white py-20">
         <SectionTitle
-          title="Why Choose Proflex uPVC Profiles in Coimbatore?"
+          title="Why Choose ECOVENT uPVC Profiles in Coimbatore?"
           className="text-white"
         />
 
@@ -195,7 +222,14 @@ const ManuFacCoimbatore = () => {
 
       {/* ================= PROFILES ================= */}
       <SectionWrapper className="bg-white">
-        <SectionTitle title="Our uPVC Profile Range in Coimbatore" />
+        <SectionTitle title="Wide Range of uPVC Profiles" />
+        <FadeInOnScroll animation="fadeIn">
+          <p className="max-w-4xl mx-auto text-center text-lg leading-relaxed mb-12 text-gray-700 px-4">
+            We offer a diverse range of profiles for doors and windows. As a
+            reputable uPVC profiles manufacturers in Coimbatore, our ECOVENT
+            Profiles are strong, elegant, practical, and stylish.
+          </p>
+        </FadeInOnScroll>
 
         <div className="grid md:grid-cols-2 gap-x-12 gap-y-8 max-w-5xl mx-auto">
           {profiles.map((p, i) => (
@@ -215,7 +249,8 @@ const ManuFacCoimbatore = () => {
         <FadeInOnScroll delay={600}>
           <blockquote className="mt-12 max-w-3xl mx-auto p-4 border-l-8 border-blue-600 bg-blue-50 text-gray-700 italic text-lg rounded-lg">
             All our profiles are made from environmentally-friendly, sustainable
-            materials, designed for long-lasting performance and low maintenance.
+            materials, designed for long-lasting performance and low
+            maintenance.
           </blockquote>
         </FadeInOnScroll>
       </SectionWrapper>
@@ -223,7 +258,7 @@ const ManuFacCoimbatore = () => {
       {/* ================= SUPPLIER SECTION ================= */}
       <SectionWrapper className="py-20">
         <SectionTitle
-          title="Reliable Supply for Homes & Businesses in Coimbatore"
+          title="Reliable Supply for Homes & Businesses"
           className="text-gray-900"
         />
 
@@ -231,9 +266,15 @@ const ManuFacCoimbatore = () => {
 
         <FadeInOnScroll animation="fadeIn">
           <p className="max-w-4xl mx-auto text-center text-lg leading-relaxed mb-12 text-gray-700 px-4">
-            Proflex is a trusted partner for homeowners, builders, and architects
-            across Coimbatore. Timely delivery, consistent quality, and seamless
-            service make us a preferred choice for projects of any size.
+            <span className="font-bold">Proflex </span>
+            offers builders, homeowners, and architects throughout Coimbatore.
+            As one of the top uPVC profiles manufacturers in Coimbatore, we
+            guarantee timely delivery and top-quality products. <br /> <br />
+            We are focused on easy communications, seamless service, and value
+            over the long term. Professionals choose{" "}
+            <span className="font-bold text-blue-600">ECOVENT</span> profiles
+            for projects of all sizes due to our reliability and quality that is
+            consistent.
           </p>
         </FadeInOnScroll>
 
@@ -241,7 +282,9 @@ const ManuFacCoimbatore = () => {
           <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-8 text-center px-4">
             <div className="bg-white shadow-xl p-6 rounded-lg transition-transform hover:scale-[1.02]">
               <i className="fas fa-tools text-4xl mb-3"></i>
-              <h4 className="text-xl font-semibold mb-2">Precision Engineering</h4>
+              <h4 className="text-xl font-semibold mb-2">
+                Precision Engineering
+              </h4>
               <p className="text-sm text-gray-700">
                 Advanced machinery ensures accuracy and consistent performance.
               </p>
@@ -259,7 +302,8 @@ const ManuFacCoimbatore = () => {
               <i className="fas fa-truck text-4xl mb-3"></i>
               <h4 className="text-xl font-semibold mb-2">Reliable Delivery</h4>
               <p className="text-sm text-gray-700">
-                Fast and dependable supply for residential and commercial projects.
+                Fast and dependable supply for residential and commercial
+                projects.
               </p>
             </div>
           </div>
@@ -277,6 +321,15 @@ const ManuFacCoimbatore = () => {
             </FadeInOnScroll>
           ))}
         </div>
+
+        {/* <FadeInOnScroll animation="fadeIn">
+          <p className="max-w-4xl mx-auto text-center text-lg leading-relaxed mt-12 text-gray-700 px-4">
+            Follow us on{" "}
+            <span className="font-bold text-blue-600">Facebook</span> and{" "}
+            <span className="font-bold text-blue-600">Instagram</span> to stay
+            updated with our latest uPVC profiles, designs, and offers.
+          </p>
+        </FadeInOnScroll> */}
       </SectionWrapper>
 
       <Footer />

@@ -85,10 +85,14 @@ const faqs = [
     question: "Do you provide customized uPVC profiles?",
     answer: "Yes, we offer customizable options for any project.",
   },
-  { question: "How long do uPVC profiles last?", answer: "30–40 years with minimal maintenance." },
+  {
+    question: "How long do uPVC profiles last?",
+    answer: "30–40 years with minimal maintenance.",
+  },
   {
     question: "Do you supply bulk orders to builders?",
-    answer: "Yes, we supply builders, architects, and fabricators across Bangalore.",
+    answer:
+      "Yes, we supply builders, architects, and fabricators across Bangalore.",
   },
 ];
 
@@ -99,21 +103,21 @@ const ManuFacBangalore = () => {
   return (
     <div className="min-h-screen pt-20 bg-white">
       <SEO
-        title="Proflex: Leading UPVC Profiles Manufacturers in Bangalore"
-  description="Proflex delivers durable and stylish solutions as top UPVC profiles manufacturers in Bangalore, designed for strength and modern aesthetics. Call now!"
-  url="/manufacturers-in-bangalore"
-   structuredData={{
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Proflex Window Profiles - Bangalore",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Bangalore",
-      "addressRegion": "Karnataka",
-      "addressCountry": "India"
-    },
-    "url": "https://proflexwindowprofiles.com/manufacturers-in-bangalore"
-  }}
+        title="ECOVENT: Leading UPVC Profiles Manufacturers in Bangalore"
+        description="ECOVENT delivers durable and stylish solutions as top UPVC profiles manufacturers in Bangalore, designed for strength and modern aesthetics. Call now!"
+        url="/manufacturers-in-bangalore"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          name: "Proflex Window Profiles - Bangalore",
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: "Bangalore",
+            addressRegion: "Karnataka",
+            addressCountry: "India",
+          },
+          url: "https://proflexwindowprofiles.com/manufacturers-in-bangalore",
+        }}
       />
 
       {/* ================= HERO ================= */}
@@ -127,23 +131,25 @@ const ManuFacBangalore = () => {
         </div>
 
         <div className="relative container mx-auto px-4 sm:px-6 text-center">
-        <Badge className="bg-white/20 text-white border-white/30 px-6 py-2 text-base mb-6">
-  Bangalore’s Leading uPVC Manufacturer
-</Badge>
+          <Badge className="bg-white/20 text-white border-white/30 px-6 py-2 text-base mb-6">
+            Bangalore’s Leading uPVC Manufacturer
+          </Badge>
 
-{/* Title */}
-<h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight px-4">
-  Welcome to{" "}
-  <span>
-    ECOVENT<sup>TM</sup>
-  </span>
-</h1>
+          {/* Title */}
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight px-4">
+            Welcome to{" "}
+            <span>
+              ECOVENT<sup>TM</sup>
+            </span>
+          </h1>
 
-{/* Description */}
-<p className="text-lg sm:text-xl opacity-90 leading-relaxed max-w-4xl mx-auto px-4">
-  At PROFLEX, we proudly bring you ECOVENT<sup>TM</sup> — a premium range of uPVC windows and doors
-  manufactured right here in Bangalore, designed for modern living, durability, and energy efficiency.
-</p>
+          {/* Description */}
+          <p className="text-lg sm:text-xl opacity-90 leading-relaxed max-w-4xl mx-auto px-4">
+            At PROFLEX, we proudly bring you ECOVENT<sup>TM</sup> — a premium
+            range of uPVC windows and doors manufactured right here in
+            Bangalore, designed for modern living, durability, and energy
+            efficiency.
+          </p>
         </div>
       </section>
 
@@ -151,16 +157,44 @@ const ManuFacBangalore = () => {
       <SectionWrapper className="bg-blue-50/50 pb-16">
         <FadeInOnScroll animation="slideUp">
           <h1 className="text-4xl sm:text-6xl font-black mb-6 text-center text-gray-900 leading-tight">
-            Leading uPVC Profiles{" "}
+            Best uPVC Profiles{" "}
             <span className="text-blue-700">Manufacturers</span> in Bangalore
           </h1>
 
           <div className="w-24 h-1 bg-[#0A6EA1] mx-auto rounded-full"></div>
 
           <p className="text-xl text-gray-600 max-w-4xl mt-5 mx-auto text-center leading-normal">
-            At Proflex Window Profiles, we specialize in manufacturing
-            premium-quality uPVC profiles designed for long-lasting strength,
-            superior insulation, and stunning aesthetics.
+            We are the most trusted uPVC profiles manufacturers in Bangalore,
+            with our top-quality ECOVENT profiles that are designed to last, as
+            well as being weather-resistant and offering long-term performance.
+            Our profiles are specifically designed to be suited to Bangalore's
+            diverse weather conditions, providing excellent insulation, noise
+            reduction, and structural stability for commercial and residential
+            structures.
+          </p>
+        </FadeInOnScroll>
+      </SectionWrapper>
+
+      <SectionWrapper className="bg-blue-50/50 pb-16">
+        <FadeInOnScroll animation="slideUp">
+          <h1 className="text-4xl sm:text-5xl font-black mb-6 text-center text-gray-900 leading-tight">
+            High-Performance uPVC Profiles{" "}
+            <span className="text-blue-700">Crafted </span>for Modern
+            Architecture
+          </h1>
+
+          <div className="w-24 h-1 bg-[#0A6EA1] mx-auto rounded-full"></div>
+
+          <p className="text-xl text-gray-600 max-w-4xl mt-5 mx-auto text-center leading-normal">
+            As one of the leading{" "}
+            <span className="font-bold text-blue-600">
+              uPVC profiles manufacturers in Bangalore
+            </span>
+            , our ECOVENT Profiles offer high-end uPVC products that blend the
+            highest quality engineering with stunning aesthetics. When you're
+            building a new home, renovating an office, or undertaking an
+            enormous real estate venture, our ECOVENT profiles improve comfort,
+            safety, and energy efficiency.
           </p>
         </FadeInOnScroll>
       </SectionWrapper>
@@ -173,18 +207,17 @@ const ManuFacBangalore = () => {
         />
 
         <div className="w-full">
-  <div className="grid grid-cols-1 md:grid-cols-2  gap-8 w-full">
-    {features.map((f, i) => (
-      <FadeInOnScroll key={i} delay={i * 150}>
-        <FeatureCard
-          {...f}
-          className="bg-white text-gray-800 shadow-xl p-6 rounded-lg w-full h-full"
-        />
-      </FadeInOnScroll>
-    ))}
-  </div>
-</div>
-
+          <div className="grid grid-cols-1 md:grid-cols-2  gap-8 w-full">
+            {features.map((f, i) => (
+              <FadeInOnScroll key={i} delay={i * 150}>
+                <FeatureCard
+                  {...f}
+                  className="bg-white text-gray-800 shadow-xl p-6 rounded-lg w-full h-full"
+                />
+              </FadeInOnScroll>
+            ))}
+          </div>
+        </div>
       </SectionWrapper>
 
       {/* ================= PROFILES ================= */}
@@ -208,8 +241,9 @@ const ManuFacBangalore = () => {
 
         <FadeInOnScroll delay={600}>
           <blockquote className="mt-12 max-w-3xl mx-auto p-4 border-l-8 border-blue-600 bg-blue-50 text-gray-700 italic text-lg rounded-lg">
-            All our profiles are manufactured using world-class machinery,
-            ensuring accuracy, precision, and consistent performance.
+            Every profile is made with the most advanced extrusion technology
+            available, which ensures accuracy, consistency, and strength of the
+            structure.
           </blockquote>
         </FadeInOnScroll>
       </SectionWrapper>
@@ -217,7 +251,7 @@ const ManuFacBangalore = () => {
       {/* ================= SUPPLIER SECTION (UPDATED) ================= */}
       <SectionWrapper className="py-20">
         <SectionTitle
-          title="Trusted uPVC Profile Supplier for Homes & Businesses"
+          title="Preferred uPVC Profiles Manufacturers in Bangalore for Residential & Commercial Projects"
           className="text-gray-900"
         />
 
@@ -227,20 +261,30 @@ const ManuFacBangalore = () => {
         {/* Intro */}
         <FadeInOnScroll animation="fadeIn">
           <p className="max-w-4xl mx-auto text-center text-lg leading-relaxed mb-12 text-gray-700 px-4">
-            Proflex Window Profiles has become a trusted choice for homeowners,
-            builders, architects, and fabrication partners across Bangalore.
-            Our commitment to innovation, quality testing, and timely delivery
-            ensures reliability for both small-scale and large-scale projects.
+            Our ECOVENT Window Profiles are the top option for architects,
+            builders, fabricators, homeowners, and other builders all over the
+            city. As seasoned uPVC profiles manufacturers in Bangalore, we are
+            aware of local building needs and can provide products that meet the
+            latest performance and design requirements.
+            <br /><br />
+            We guarantee timelydelivery with strict quality control and dependable support for all
+            projects, ranging from small home projects to massive construction
+            developments.
+            <br /><br />
+            Our mission is simple: We offer durable, fashionable,
+            and energy-efficient uPVC profiles that enhance the value of every
+            construction.
           </p>
         </FadeInOnScroll>
 
         {/* Cards */}
         <FadeInOnScroll animation="slideUp">
           <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-8 text-center px-4">
-
             <div className="bg-white shadow-xl p-6 rounded-lg transition-transform hover:scale-[1.02]">
               <i className="fas fa-tools text-4xl mb-3"></i>
-              <h4 className="text-xl font-semibold mb-2">Precision Engineering</h4>
+              <h4 className="text-xl font-semibold mb-2">
+                Precision Engineering
+              </h4>
               <p className="text-sm text-gray-700">
                 World-class machinery ensures accuracy & long-term performance.
               </p>
@@ -261,7 +305,6 @@ const ManuFacBangalore = () => {
                 Fast, dependable supply for builders & large projects.
               </p>
             </div>
-
           </div>
         </FadeInOnScroll>
       </SectionWrapper>
@@ -277,6 +320,15 @@ const ManuFacBangalore = () => {
             </FadeInOnScroll>
           ))}
         </div>
+
+        {/* <FadeInOnScroll animation="fadeIn">
+          <p className="max-w-4xl mx-auto text-center text-lg leading-relaxed mt-12 text-gray-700 px-4">
+            Follow us on{" "}
+            <span className="font-bold text-blue-600">Facebook</span> and{" "}
+            <span className="font-bold text-blue-600">Instagram</span> to stay
+            updated with our latest uPVC profiles, designs, and offers.
+          </p>
+        </FadeInOnScroll> */}
       </SectionWrapper>
 
       <Footer />

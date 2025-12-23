@@ -191,7 +191,7 @@ const Products = () => {
             ? `Premium ${currentType} ${currentSubType.toLowerCase()} by Proflex Window Profiles. Energy-efficient, weather-proof design with superior security. Made in India. Get free quotes.`
             : currentType
             ? `Premium ${currentType} windows and doors by Proflex Window Profiles. Energy-efficient, weather-proof design with superior security. Made in India. Get free quotes.`
-            : "Premium UPVC window profiles and doors manufacturer in India. Energy-efficient casement & sliding windows with weather-proof design. Get free quotes for your home renovation."
+            : "ECOVENT is a premium uPVC profiles window and door manufacturer in India, offering energy-efficient, weather-proof, lead-free, non-toxic profiles."
         }
         keywords={`${currentType || "UPVC"} windows, ${
           currentType || "UPVC"

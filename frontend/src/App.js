@@ -15,6 +15,10 @@ import ManuFacHyderabad from "./pages/manufacturers/ManuFacHyderabad";
 import ManuFacCoimbatore from "./pages/manufacturers/ManuFacCoimbatore";
 import ManuFacChennai from "./pages/manufacturers/ManuFacChennai";
 import ManuFacIndia from "./pages/manufacturers/ManuFacIndia";
+import UpvcVsAluminium from "./pages/comparisions/UpvcVsAluminium";
+import UpvcVsWood from "./pages/comparisions/UpvcVsWood";
+import UpvcProfilesForWindowFabricators from "./pages/UpvcProfilesForWindowFabricators";
+import UPVCProfilesKolar from "./pages/UPVCProfilesKolar";
 function App() {
   return (
     <div className="App">
@@ -30,11 +34,18 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-           <Route path="/manufacturers-in-bangalore" element={<ManuFacBangalore />} />
-           <Route path="/manufacturers-in-hyderabad" element={< ManuFacHyderabad />} />
-           <Route path="/manufacturers-in-coimbatore" element={< ManuFacCoimbatore />} />
-             <Route path="/manufacturers-in-chennai" element={< ManuFacChennai />} />
-             <Route path="/manufacturers-in-india" element={< ManuFacIndia />} />
+          <Route path="/manufacturers-in-bangalore" element={<ManuFacBangalore />} />
+          <Route path="/manufacturers-in-hyderabad" element={< ManuFacHyderabad />} />
+          <Route path="/manufacturers-in-coimbatore" element={< ManuFacCoimbatore />} />
+          <Route path="/manufacturers-in-chennai" element={< ManuFacChennai />} />
+          <Route path="/manufacturers-in-india" element={< ManuFacIndia />} />
+          
+          <Route path="/upvc-vs-wood-windows" element={< UpvcVsWood />} />
+          <Route path="/upvc-vs-aluminium-windows" element={< UpvcVsAluminium />} />
+          <Route path="/upvc-profiles-for-window-fabricators" element={< UpvcProfilesForWindowFabricators />} />
+          <Route path="/upvc-profiles-for-builders" element={< UPVCProfilesKolar />} />
+
+
         </Routes>
         <FloatingActions />
       </BrowserRouter>

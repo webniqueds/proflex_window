@@ -34,11 +34,11 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/manufacturers-in-bangalore" element={<ManuFacBangalore />} />
-          <Route path="/manufacturers-in-hyderabad" element={< ManuFacHyderabad />} />
-          <Route path="/manufacturers-in-coimbatore" element={< ManuFacCoimbatore />} />
-          <Route path="/manufacturers-in-chennai" element={< ManuFacChennai />} />
-          <Route path="/manufacturers-in-india" element={< ManuFacIndia />} />
+          <Route path="/upvc-profiles-manufacturers-in-bangalore" element={<ManuFacBangalore />} />
+          <Route path="/upvc-profiles-manufacturers-in-hyderabad" element={< ManuFacHyderabad />} />
+          <Route path="/upvc-profiles-manufacturers-in-coimbatore" element={< ManuFacCoimbatore />} />
+          <Route path="/upvc-profiles-manufacturers-in-chennai" element={< ManuFacChennai />} />
+          <Route path="/upvc-profiles-manufacturers-in-india" element={< ManuFacIndia />} />
           
           <Route path="/upvc-vs-wood-windows" element={< UpvcVsWood />} />
           <Route path="/upvc-vs-aluminium-windows" element={< UpvcVsAluminium />} />

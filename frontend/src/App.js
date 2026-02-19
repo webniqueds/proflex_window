@@ -19,6 +19,8 @@ import UpvcVsAluminium from "./pages/comparisions/UpvcVsAluminium";
 import UpvcVsWood from "./pages/comparisions/UpvcVsWood";
 import UpvcProfilesForWindowFabricators from "./pages/UpvcProfilesForWindowFabricators";
 import UPVCProfilesKolar from "./pages/UPVCProfilesKolar";
+import EcoventIndia from "./pages/EcoventIndia";
+
 function App() {
   return (
     <div className="App">
@@ -44,6 +46,8 @@ function App() {
           <Route path="/upvc-vs-aluminium-windows" element={< UpvcVsAluminium />} />
           <Route path="/upvc-profiles-for-window-fabricators" element={< UpvcProfilesForWindowFabricators />} />
           <Route path="/upvc-profiles-for-builders" element={< UPVCProfilesKolar />} />
+
+          <Route path="/ecovent-upvc-windows-doors-india" element={< EcoventIndia />} />
 
 
         </Routes>

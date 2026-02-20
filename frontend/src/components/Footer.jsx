@@ -28,7 +28,7 @@ const Footer = () => {
     { name: "Products", path: "/products" },
     { name: "Gallery", path: "/gallery" },
     { name: "Contact", path: "/contact" },
-    // { name: "Ecovent", path: "/ecovent-upvc-windows-doors-india" },
+    { name: "Ecovent", path: "/ecovent-upvc-windows-doors-india" },
   ];
 
   const services = [

@@ -12,6 +12,7 @@ import FAQItem from "@/components/faq/FAQItem";
 import { Badge } from "@/components/ui/badge";
 
 import { CheckCircle, Zap, Shield, Eye, Leaf, Coins } from "lucide-react";
+import { Link } from "react-router-dom";
 
 
 const features = [
@@ -25,8 +26,18 @@ const features = [
   {
     icon: Zap,
     title: "They Save Electricity",
-    description: `ECOVENT keeps your home at the correct temperature.In summer, the cooling effect helps keep the heat out of your room, keeping it cool. In winter it holds the warmth within. This means that you don't have to run an AC and heater nearly as often, and this makes your electric bill less!`,
-    color: "bg-[#7BBE4B]",
+    description: (
+  <>
+    <Link to="/" className="hover:underline hover:text-green-600 transition-colors duration-200">
+      ECOVENT
+    </Link>{" "}
+    keeps your home at the correct temperature. In summer, the cooling effect
+    helps keep the heat out of your room, keeping it cool. In winter it holds
+    the warmth within. This means that you don't have to run an AC and heater
+    nearly as often, and this makes your electric bill less!
+  </>
+),
+color: "bg-[#7BBE4B]",
   },
   {
     icon: Eye,
@@ -160,7 +171,9 @@ const EcoventIndia = () => {
 
         <div className="relative container mx-auto px-4 sm:px-6 text-center">
           <Badge className="bg-white/20 text-white border-white/30 px-6 py-2 text-base mb-6">
+          <Link to="/ecovent-upvc-windows-doors-india" className="hover:underline hover:text-green-600 transition-colors duration-200">
             ECOVENT
+          </Link>
           </Badge>
 
           {/* Title */}
@@ -171,7 +184,9 @@ const EcoventIndia = () => {
           {/* Description */}
           <p className="text-lg sm:text-xl opacity-90 leading-relaxed max-w-4xl mx-auto px-4">
             Do you need doors and windows that are stunning and last for a long
-            time? ECOVENT produces windows and doors made of uPVC that ensure
+            time? <Link to="/ecovent-upvc-windows-doors-india" className="hover:underline hover:text-blue-600 transition-colors duration-200">
+            ECOVENT
+          </Link> produces windows and doors made of uPVC that ensure
             your home is secure, peaceful, quiet, and gorgeous. They're designed
             to be modern and are sturdy, but they still look stunning!
           </p>
@@ -186,8 +201,8 @@ const EcoventIndia = () => {
 
         <FadeInOnScroll animation="slideUp">
           <p className="text-xl text-gray-600 max-w-4xl mt-5 mx-auto text-center leading-normal">
-            <span className="font-bold text-blue-600">ECOVENT</span>
-            is an ideal superhero for your home. It's more than creating a hole
+            <span className="font-bold text-blue-600">ECOVENT </span>
+             is an ideal superhero for your home. It's more than creating a hole
             in your wall. It makes you feel more comfortable and can save you
             money.
           </p>

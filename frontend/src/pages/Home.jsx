@@ -372,8 +372,11 @@ const Home = () => {
                 commercial projects.
               </p>
               <p className="text-base sm:text-lg text-gray-600 mb-6">
-                Our commitment to innovation and eco-friendly solutions means
-                ECOVENT<sup>TM</sup> products don't just perform — they enhance
+                Our commitment to innovation and eco-friendly solutions 
+                means <Link to="/ecovent-upvc-windows-doors-india" className="hover:underline hover:text-green-600 transition-colors duration-200">
+                 ECOVENT
+                </Link>
+                <sup>TM</sup> products don't just perform — they enhance
                 the look, feel, and comfort of your spaces. Every profile
                 strikes the ideal balance between form and function, ensuring
                 beauty that lasts.
